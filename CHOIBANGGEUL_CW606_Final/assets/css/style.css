@@ -1,0 +1,224 @@
+*{padding:0;margin:0;
+	font-family: 'Julius Sans One', sans-serif;
+}
+/* font-family: 'Julius Sans One', sans-serif;
+font-family: 'Homemade Apple', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Special Elite', cursive;
+font-family: 'Graduate', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Cabin Sketch', cursive;
+font-family: 'Walter Turncoat', cursive;///
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Barrio', cursive;
+font-family: 'Raleway Dots', cursive;
+font-family: 'Life Savers', cursive;/// */
+.hidden{display:none;}
+.overlay{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-color:#000000;
+	z-index:2;
+	opacity:0.3;
+	top:0;
+}
+
+.no-padding{padding:0;}
+.no-margin{margin:0;}
+
+
+
+.logo{
+	width:100%;
+}
+.logo img{
+	position: relative;	
+	width:100%;
+	
+}
+.logo .text{
+	position: absolute;
+	top: 15%;
+  	left: 38%;
+   	width: 100%;
+   	margin: 0 auto;   
+   	font-size:50px;
+   	font-family: 'Special Elite', cursive;
+
+}
+.menu #mn{
+	list-style:none;
+	line-height:2.5;
+	margin:0 auto;
+}
+.menu #mn li{
+	float:left;
+	padding:0 10px;	
+}
+.menu #mn li a{
+	text-decoration:none;
+	font-size:15px;
+	font-weight:600;
+	color:#000000;
+}
+header{margin: 20px 0;}
+
+
+.carousel-caption{
+	bottom:100px;
+}
+.carousel-caption .caption-title{	
+	font-size:30px;
+	font-weight:bold;
+}
+
+.carousel-caption .caption-desc{
+	font-size:24px;
+}
+
+.btm{
+	width:100%;	
+	border-style: solid;
+	border:none;
+    border-top: dashed #7f7f7f;
+}
+.btm img{
+	position: relative;	
+	width:100%;
+}
+.cpy{
+	font-size:12px;
+	color:#40413e;
+	text-align: right;
+	margin:1%;
+}
+
+/*TEST*/
+.menu {
+	width: 100%;
+	height: 100px;
+	display:none;
+}
+
+.navbar{
+    cursor:pointer;    
+    margin: 0 auto;
+    width:11%;
+ }
+ .navbar img{
+ 	width:100%;
+ }
+
+
+/* title logo typing function */
+@-webkit-keyframes typing {
+    from { width: 0 }
+    to { width:8em }
+}
+
+@-moz-keyframes typing {
+    from { width: 0 }
+    to { width:8em }
+}
+
+@-webkit-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+}
+
+@-moz-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+}
+
+#tptp { 
+	top: 15%;
+  	left: 38%;
+   	position:absolute;
+	margin: 0 auto;   
+   	font-size:50px;
+   	font-family: 'Special Elite', cursive;
+    width:7em;
+    white-space:nowrap;
+    overflow:hidden;
+    border-right: .1em solid black;
+    
+    -webkit-animation: typing 1s steps(10, end), /* # of steps = # of characters */
+                        blink-caret 0.9s step-end infinite;
+    -moz-animation: typing 1s steps(10, end), /* # of steps = # of characters */
+                        blink-caret 0.9s step-end infinite;
+}
+
+/* CONTACT */
+.cont_cover{
+	width:100%;
+	border-style: solid;
+	border:none;
+    border-top: dashed #7f7f7f;
+
+}
+.cover{
+	margin-left: 5% ;
+}
+.video{
+	margin: 5%;
+	margin-left: 7%
+}
+.contact, .photo {
+    border: 1px solid #ccc;
+    float:left;
+    width: 240px;
+    margin-top:5%;
+    margin-right: 2%;    
+}
+.photo, .each_v {
+    border: 1.2px dashed #ccc;
+}
+.contact img {
+    width: 100%;
+    height: 240px;
+    opacity: 0.8;
+}
+ .photo img {
+    width: 100%;
+    height: 300px;
+    padding:2%;
+
+}
+
+.contact img:hover{
+	opacity:1;
+}
+
+.contact {
+    padding: 1%;
+    text-align: center;    
+    font-size:16px;
+}
+.desc{
+	font-family: 'Fredericka the Great', cursive;
+	font-weight: 300;
+}
+
+/* Enterance style */
+.drag_top{
+	margin-top:20%;
+	position: relative;
+}
+.highlight{
+	border:  dashed #eb2023;
+	width:200px;
+	height: 120px;
+	position:absolute;
+	left:42%;
+	top:-20%;
+	text-align: center;
+	font-family: 'Special Elite', cursive;
+}
+#car { padding: 0.5em; }
+
+#typing{
+	width:500px;
+	height: 200px;
+}
