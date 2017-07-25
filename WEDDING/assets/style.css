@@ -1,0 +1,49 @@
+h2 {
+	font-family: 'Amatic SC', cursive;
+}
+#section1{
+	display:inline-block;
+	font-family: Verdana, Geneva, sans-serif;
+	position: relative;
+	margin-top: 0ex;
+	margin-right: auto;
+	margin-bottom: 0%;
+	margin-left: auto;
+	padding-left: 40px;
+	}
+.pro_lft{
+	float:left;
+
+	}
+.pro_med_1, .pro_med_2{
+	float:left;
+	width:260px;
+	text-align:center;
+	font-size:20px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	
+	}
+.pro_rgt{
+	float:left;
+	}
+.clear{
+	clear:both;}
+	
+#section2{	
+	background-color:#dcdcdc;
+	}
+#conts{
+	background-color:#faa8a7;
+	}
+#icons{
+	font-size:70px;
+	}
+.sns > ul > li{
+	list-style-type:none;
+	display:inline-block;
+	margin-right:10px ;
+	}
+#bigw{
+	font-weight:600;
+	font-size:24px;
+	}
